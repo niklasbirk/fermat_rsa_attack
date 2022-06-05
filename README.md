@@ -24,6 +24,7 @@ In each iteration increase `a` by 1 until a solution is found or the amount of t
 
 In the iteration itself calculate `b^2 = a^2 - N` then check if `b` is non-negative and a square number.
 If so the solution is found. If not then increase `a` by 1 and try again.
+
 ---
 **This method to calculate `p1` and `p2` for RSA-keys is a good method if the two prime numbers
 are close together. However, if they are not close it takes long.
